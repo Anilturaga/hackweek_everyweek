@@ -1,0 +1,107 @@
+body,div.mdl-layout{
+padding:0px;
+margin:0px;
+background-color:white;
+width:100%;
+height:100%;
+overflow-y:auto;
+overflow-x:hidden;
+font-size:17px;
+text-align: center;
+color:white;
+}
+header{
+    height:13%;
+width:100%;
+background-color: #00bcd4 ;
+display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+    
+}
+span.mdl-layout-title{
+margin:auto;
+    text-decoration: underline;
+    //color:white !important;
+    font-size:150%;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  }
+main{
+  width:100%;
+  height:87%;
+  overflow-y:auto;
+overflow-x:hidden;
+display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  
+}
+
+section.status{
+    padding:0px;
+    margin:0px;
+    height: 85%;
+    width: 100%;
+    display: flex;
+  flex-direction: row;
+align-items: center;
+  justify-content: center;
+    overflow-y:hidden;
+    overflow-x:hidden;
+}
+form,button.profile{
+  width:100%;
+  height:100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  color:black;
+}
+div.mdl-card{
+    padding:0px;
+    margin:0px;
+    height:100%;
+    width: 90%;
+    background-color: white;
+}
+div.mdl-layout__drawer-button
+{
+	margin:18px 12px;
+
+}
+header.mdl-layout__header{
+	background-color:#00bcd4; 
+}
+div.mdl-card__supporting-text{
+    height:100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+      overflow-y:auto;
+      overflow-x:hidden;
+}
+  @media screen and (max-width:600px) {
+    div.mdl-card{
+        height:100%;
+        width: 100%;
+        background-color: white;
+    }
+    section.status{
+        height: 85%;
+        width: 100%;
+        display: flex;
+      flex-direction: column;
+    align-items: center;
+      justify-content: center;
+        overflow-y:hidden;
+        overflow-x:hidden;
+    }
+    
+  }
